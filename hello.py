@@ -6,11 +6,13 @@ print('Hello,', username)
 # Don't do
 animals = [
     'cat',
-    'dog'
+    'dog',
+    'dragon'
 ]
 
 # Do(Trailing comma)
 menus = [
     'sushi',
     'myeon',
+    'nengmyeon'
 ]
