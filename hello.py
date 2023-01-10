@@ -14,5 +14,6 @@ animals = [
 menus = [
     'sushi',
     'myeon',
-    'nengmyeon'
+    'nengmyeon',
+    'milmyeon'
 ]
