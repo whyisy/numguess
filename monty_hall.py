@@ -19,4 +19,4 @@ for _ in range(iter_num):
     else:
         result['stay_to_win'] += 1
 
-print(result)
+print("{} times run: stay-{stay_to_win} switch-{move_to_win}".format(iter_num, **result))
