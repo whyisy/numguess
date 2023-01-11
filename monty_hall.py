@@ -6,7 +6,10 @@ result = {
 }
 
 doors = [0,0,1] # 0: goat, 1: sports car
-for _ in range(1000):
+
+iter_num = int(input("Enter some num(100-10000): "))
+
+for _ in range(iter_num):
     shuffle(doors)
     #print(doors)
     user_choice = choice(doors)
